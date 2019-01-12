@@ -1,0 +1,30 @@
+{
+    "name": "paint-shop-problem-ts",
+    "version": "1.0.0",
+    "description": "Solution in TypeScript for the well known paint shop problem",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "author": "Mauricio Urraco <mauriurraco@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "./node_modules/nodemon/bin/nodemon.js --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
+        "build": "tsc",
+        "test": "mocha -r ts-node/register test/**/*.ts"
+    },
+    "engines": {
+        "node": "8.x"
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "typescript": "^3.2.2"
+    },
+    "devDependencies": {
+        "@types/mocha": "^5.2.5",
+        "@types/node": "^10.12.18",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
+        "nodemon": "^1.18.9",
+        "ts-node": "^7.0.1",
+        "tslint": "^5.12.1"
+    }
+}

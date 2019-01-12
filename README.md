@@ -1,1 +1,1 @@
-# paint-shop-problem-ts
+# Paint Shop Problem TS
