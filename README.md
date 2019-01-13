@@ -4,7 +4,7 @@
 
 # Stack
 
-![](https://img.shields.io/badge/node_8-✓-blue.svg)
+![](https://img.shields.io/badge/node_8+-✓-blue.svg)
 ![](https://img.shields.io/badge/typescript-✓-blue.svg)
 ![](https://img.shields.io/badge/mocha-✓-blue.svg)
 
@@ -12,6 +12,9 @@
 
 ```
 paint-shop-problem-ts/
+│
+├── examples/
+│   └── *.txt                     * Input/output examples
 │
 ├── src/
 │   ├── components/
