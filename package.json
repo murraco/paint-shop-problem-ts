@@ -9,7 +9,7 @@
     "scripts": {
         "start": "./node_modules/nodemon/bin/nodemon.js --exec ./node_modules/.bin/ts-node -- ./src/index.ts",
         "build": "tsc",
-        "test": "mocha -r ts-node/register test/**/*.ts"
+        "test": "mocha -r ts-node/register test/**/*.ts test/*.ts"
     },
     "engines": {
         "node": "8.x"

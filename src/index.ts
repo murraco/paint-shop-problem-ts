@@ -8,9 +8,7 @@ for (let i = 0; i < 5; i++) {
   try {
     const content = fs.readFileSync(path, 'utf8')
 
-    console.log(`example${i}`)
-    console.log(parse(content))
-    // console.log(solve(parse(content)))
+    console.log(solve(parse(content)))
   } catch (error) {
     console.log(error.message)
   }
