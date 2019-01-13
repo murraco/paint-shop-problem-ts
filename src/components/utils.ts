@@ -1,7 +1,7 @@
 import Preference from '../models/preference'
 
 /**
- * Takes a set of customer preferences and returns them sorted by tone and color with marks in the unique requirements.
+ * Takes a set of customer preferences and returns them sorted by tone and color with marks for the unique requirements.
  * @param {Preference[][]} preferences Set of customer preferences
  * @returns {Preference[][]} Marked set of customer preferences sorted by tone and color
  */
@@ -57,7 +57,7 @@ function getCandidate(i: number, preferences: Preference[][]): Preference[] {
  * @returns {*} The solution if it's a valid candidate, otherwise false
  */
 export function validateCandidate(nColors: number, candidate: Preference[], preferences: Preference[][]): any {
-  // Colors is the working array, is created with numColors cells initialized to null
+  // Colors is the working array, is created with nColors cells initialized to null
   const colors = Array.from({ length: nColors }, i => null)
 
   const found = candidate.every((pref: Preference) => {
