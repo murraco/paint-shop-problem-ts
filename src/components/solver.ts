@@ -6,10 +6,9 @@ import { preparePreferences, generateCandidates, validateCandidate } from './uti
 const NO_SOLUTION_MESSAGE = 'No solution exists'
 
 /**
- * Solve the paint shop problem for the current customers' request.
- *
- * @returns {string} - A string representing for each of the colors, whether it should be made gloss or 
- * matte in order to fill the customers' request. Otherwise it returns the message: 'No solution exists'.
+ * Solves the paint shop problem.
+ * @param {Request} request Customer request
+ * @returns {string} The candidate solution or an invalid message
  */
 export function solve(request: Request): string {
   const preferences = preparePreferences(request.preferences)
