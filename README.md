@@ -26,19 +26,19 @@ paint-shop-problem-ts/
 │   │   ├── preference.ts
 │   │   └── request.ts
 │   │
-│   └── index.js                  * Entry point of our Node's app
+│   └── index.ts                  * Entry point of our Node's app
 │
 ├── test/
 │   ├── components/
-│   │   ├── parser.ts
-│   │   ├── solver.ts
-│   │   └── utils.ts
+│   │   ├── parser.test.ts
+│   │   ├── solver.test.ts
+│   │   └── utils.test.ts
 │   │
 │   ├── models/
-│   │   ├── preference.ts
-│   │   └── request.ts
+│   │   ├── preference.test.ts
+│   │   └── request.test.ts
 │   │
-│   └── index.js
+│   └── index.test.ts
 │   
 ├── .gitignore                    * Git ignore file for Node
 ├── LICENSE                       * MIT License
