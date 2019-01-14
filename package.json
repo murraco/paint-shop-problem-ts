@@ -1,7 +1,7 @@
 {
     "name": "paint-shop-problem-ts",
     "version": "1.0.0",
-    "description": "Solution in TypeScript for the well known paint shop problem",
+    "description": "Solution in TypeScript for the paint shop problem",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
     "author": "Mauricio Urraco <mauriurraco@gmail.com>",
@@ -15,6 +15,7 @@
         "node": "8.x"
     },
     "dependencies": {
+        "commander": "^2.19.0",
         "fs": "0.0.1-security",
         "typescript": "^3.2.2"
     },

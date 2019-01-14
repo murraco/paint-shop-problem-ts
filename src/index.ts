@@ -1,15 +1,24 @@
+#!/usr/bin/env node
+
 import * as fs from 'fs'
+import * as program from 'commander'
 
 import { parse } from './components/parser'
 import { solve } from './components/solver'
 
-for (let i = 0; i < 5; i++) {
-  const path = `${__dirname}/../examples/example${i}.txt`
-  try {
-    const content = fs.readFileSync(path, 'utf8')
+const { version } = require('../package.json')
 
-    console.log(solve(parse(content)))
-  } catch (error) {
-    console.log(error.message)
-  }
+program
+  .version(version)
+  .usage('< <file ...>')
+
+program.parse(process.argv)
+
+try {
+  const input = fs.readFileSync('/dev/stdin', 'utf8')
+
+  process.stdout.write(solve(parse(input)))
+} catch (err) {
+  process.stderr.write(err)
+  process.exit(1)
 }
