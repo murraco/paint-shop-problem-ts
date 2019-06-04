@@ -52,7 +52,7 @@ paint-shop-problem-ts/
 
 # Introduction
 
-You can find a description of the problem in [this](https://docs.portchain.com/hiring/challenges/colors.html) link.
+You can find a description of the problem in [this](https://github.com/murraco/paint-shop-problem-ts/blob/master/PAINT-SHOP-PROBLEM.md) link.
 
 ## How to use this code?
 
