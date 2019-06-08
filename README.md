@@ -8,6 +8,12 @@
 ![](https://img.shields.io/badge/typescript-✓-blue.svg)
 ![](https://img.shields.io/badge/mocha-✓-blue.svg)
 
+***
+
+<h3 align="center">Help this repo with a :star: if it's useful for you! :blush:</h3>
+
+***
+
 # File structure
 
 ```
