@@ -1,7 +1,5 @@
 # Paint Shop Problem TS
 
-![](https://img.shields.io/badge/test-success-brightgreen.svg)
-
 # Stack
 
 ![](https://img.shields.io/badge/node_8+-✓-blue.svg)
