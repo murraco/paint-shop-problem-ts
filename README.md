@@ -1,3 +1,5 @@
+> **Archived.** Interview exercise, kept for reference, unmaintained.
+
 # Paint Shop Problem TS
 
 A TypeScript solution to the paint shop problem: find a batch of colors that satisfies every customer's preferences, using the fewest matte colors possible.
