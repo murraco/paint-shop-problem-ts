@@ -1,18 +1,18 @@
 # Paint Shop Problem TS
 
-# Stack
+A TypeScript solution to the paint shop problem: find a batch of colors that satisfies every customer's preferences, using the fewest matte colors possible.
+
+## Stack
 
 ![](https://img.shields.io/badge/node_8+-✓-blue.svg)
 ![](https://img.shields.io/badge/typescript-✓-blue.svg)
 ![](https://img.shields.io/badge/mocha-✓-blue.svg)
 
-***
+## Introduction
 
-<h3 align="center">Please help this repo with a ⭐ or <a href='https://github.com/sponsors/murraco'>Sponsor Me</a> if you find it useful! :blush:</h3>
+You can find a description of the problem in [this](https://github.com/murraco/paint-shop-problem-ts/blob/master/PAINT-SHOP-PROBLEM.md) link.
 
-***
-
-# File structure
+## File structure
 
 ```
 paint-shop-problem-ts/
@@ -43,22 +43,18 @@ paint-shop-problem-ts/
 │   │   └── request.test.ts
 │   │
 │   └── index.test.ts
-│   
-├── .gitignore                    * Git ignore file for Node
+│
+├── .gitignore                    * Example git ignore file
 ├── LICENSE                       * MIT License
-├── package-lock.json             * Defines our exact JavaScript dependencies tree
 ├── package.json                  * Defines our JavaScript dependencies
+├── package-lock.json             * Defines our exact JavaScript dependencies tree
 ├── README.md                     * This file
 ├── tsconfig.json                 * Specifies the root files and the compiler options required to compile the project
 ├── tslint.json                   * Configures which rules get run and each of their options
 └── yarn.lock                     * Stores exactly which versions of each dependency were installed
 ```
 
-# Introduction
-
-You can find a description of the problem in [this](https://github.com/murraco/paint-shop-problem-ts/blob/master/PAINT-SHOP-PROBLEM.md) link.
-
-## How to use this code?
+## Quick start
 
 1. Make sure you have [Node.js](https://nodejs.org/en/) v8+ installed
 
@@ -67,40 +63,40 @@ You can find a description of the problem in [this](https://github.com/murraco/p
   $ sudo npm install -g n
   $ sudo n stable
   ```
-  
+
   > NOTE: I recommend you to use [nvm](https://github.com/creationix/nvm) for managing multiple node versions
-  
+
 2. Clone this repository
-  
+
   ```
   $ git clone https://github.com/murraco/paint-shop-problem-ts
   ```
 
-3. Navigate into the folder  
+3. Navigate into the folder
 
   ```
   $ cd paint-shop-problem-ts
   ```
-  
+
 4. Install NPM dependencies
 
   ```
   $ npm install
   ```
-  
-7. Build the project
+
+5. Build the project
 
   ```
-  $ node run build
+  $ npm run build
   ```
 
-8. Run the `index.js` file inside the just generated `build` folder and use stdin to specify the path to a file with a set of customer requirements (look at the examples folder)
+6. Run the `index.js` file inside the just generated `build` folder and use stdin to specify the path to a file with a set of customer requirements (look at the examples folder)
 
   ```
   $ node build/index < path_to_file
   ```
 
-## Test
+## Testing
 
 After installing the dependencies, run the following command in order to execute the tests:
 
@@ -108,9 +104,19 @@ After installing the dependencies, run the following command in order to execute
   $ npm run test
   ```
 
-# Contribution
+## Contribution
 
 - Report issues
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <mauriurraco@gmail.com>
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+## Support
+
+If this project helped you, consider buying me a coffee ☕️
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/murraco)
